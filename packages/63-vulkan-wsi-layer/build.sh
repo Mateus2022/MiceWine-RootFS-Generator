@@ -1,3 +1,3 @@
-GIT_URL=https://github.com/KreitinnSoftware/vulkan-wsi-layer
+GIT_URL=https://github.com/Mateus2022/sysvk
 LDFLAGS="-L$PREFIX/lib"
-CMAKE_ARGS="-DBUILD_WSI_X11=1 -DBUILD_WSI_IMAGE_COMPRESSION_CONTROL_SWAPCHAIN=1"
+CMAKE_ARGS="-DCMAKE_INSTALL_PREFIX=$PREFIX"
